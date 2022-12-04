@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    align-items: center;
+    margin:0;
+    background:  #603dfce5;
+    justify-content: center;
+}
+
+.login{
+    margin:0rem;
+    padding: 13% 1rem;
+    min-height: 100%;
+}
+.login img{
+    
+    border-radius: 50%;
+    margin: 2rem;
+    box-shadow: 1px 0px 50px #ffffff60;
+    position: relative;
+}
+
+.login-form{
+    text-align: center;
+    position: relative;
+}
+
+.login-form a{
+    text-decoration: underline;
+    color: white;
+}
+
+.login-form input{
+    width: 75%;
+    border: 1px solid  #6a3dfce2;
+    border-radius: 5px;
+    outline: none;
+    background-color:  hwb(254 24% 1% / 0.886);
+    padding: 5px;
+    font-size: medium;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .login-form label{
+    position: relative;
+    justify-content: center;
+    color: white;
+
+ }
+
+ input::placeholder{
+    padding: 0 3px;
+    color: white;
+    font-size:small;
+    text-transform: capitalize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+button{
+    padding: 3px 2px;
+    border: 1px solid  #6a3dfce2;
+    border-radius: 3px;
+    outline: none;
+    width: 50%;
+    height: auto;
+    min-height: 25%;
+    max-height: 50%;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#6a3dfce2;
+    color: white;
+}
+
+.btn{
+    
+    background-color: #6a3dfce2;
+    display:flex;
+    padding: 2px 2px;
+    border-radius: 3px;
+}
+
+button:hover{
+    box-shadow: 1px 0px 35px #000000;
+    transition: .8s;
+}
+
+
+
+
+.register{
+    margin:rem;
+    padding: 13% 1rem; /* */
+    min-height: 100%;
+}
+
+.register-form{
+    text-align: center;
+    position: relative;
+}
+
+.register-form a{
+    text-decoration: underline;
+    color: white;
+}
+
+.register-form input{
+    width: 75%;
+    border: 1px solid  #6a3dfce2;
+    border-radius: 5px;
+    outline: none;
+    background-color:  hwb(254 24% 1% / 0.886);
+    padding: 5px;
+    font-size: medium;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .register-form label{
+    position: relative;
+    justify-content: center;
+    color: white;
+
+ }
+
+ input::placeholder{
+    padding: 0 3px;
+    color: white;
+    font-size:small;
+    text-transform: capitalize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+button{
+    padding: 3px 2px;
+    border: 1px solid  #6a3dfce2;
+    border-radius: 3px;
+    outline: none;
+    width: 50%;
+    height: auto;
+    min-height: 25%;
+    max-height: 50%;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#6a3dfce2;
+    color: white;
+}
+
+button:hover{
+    box-shadow: 1px 0px 35px #000000;
+    transition: .8s;
+}
